@@ -1,4 +1,3 @@
 #!/bin/bash
-ls -l
-ls -l ..
-ls -l /boot
+ls -lRa /root/holbertonschool-shell
+ls -la /boot
