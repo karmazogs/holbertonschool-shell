@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod ug+x
-chmod o=r
+chmod 754 hello
