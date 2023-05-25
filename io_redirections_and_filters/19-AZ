@@ -1,2 +1,2 @@
 #!/bin/bash
-tr $0 "Ac" "Ze"
+tr "Ac" "Ze"
