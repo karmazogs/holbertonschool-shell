@@ -2,10 +2,10 @@
 # prints hours and minutes
 
 h=0
-m=1
 while [ $h -le 12 ]
 do
 	printf "Hour: %d\n" $h
+	m=1
 	while [ $m -le 59 ]
 	do
 		echo $m
