@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "1337\n"
+expr $TRUEKNOWLEDGE + 128
