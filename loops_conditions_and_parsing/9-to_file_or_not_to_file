@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# info on school file
 
 school="/root/holbertonschool-shell/loops_conditions_and_parsing/school"
 
