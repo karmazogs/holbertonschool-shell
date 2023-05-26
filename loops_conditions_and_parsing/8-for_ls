@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# prints files without the first biut
+
+for file in *
+do
+	echo "${file#*-}"
+done
