@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# prints the passwd
 while IFS=: read user shadow uid guid geco home sh
 do 
 	if [[ $uid -le 100 ]]
