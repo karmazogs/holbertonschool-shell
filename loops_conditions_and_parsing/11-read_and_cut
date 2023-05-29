@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # prints the passwd
-while IFS=: read -r user shadow uid guid geco home sh
+while IFS=: read -r user _ uid _ _ home _
 do 
 	if [[ $uid -le 100 ]]
 	then 
 		echo "$user:$uid:$home"
 	fi
 done < /etc/passwd
-
