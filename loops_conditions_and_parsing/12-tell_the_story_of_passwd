@@ -2,5 +2,5 @@
 # prints the passwd
 while IFS=: read -r user shadow uid guid gecos home shell
 do 
-	echo "The user $user is part of the $guid gang, lives in $home and rides $shell. $uid's place is protected by the passcode $shadow, more info about the user here: $uid"
+	echo "The user $user is part of the $guid gang, lives in $home and rides $shell. $uid's place is protected by the passcode $shadow, more info about the user here: $gecos"
 done < /etc/passwd
